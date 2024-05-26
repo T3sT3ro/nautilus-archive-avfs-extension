@@ -5,9 +5,11 @@ That's it. It's that simple.
 
 ## Supported formats
 
-I tested and it works for: `7z`, `cbz`, `iso (9660)`, `.jar` (and similar), `.rar`, `.tar`, `.tar.*` compressed archives (with alternative spellings as well like `tar.gz` and `tgz`), `.ar`, `.zip`, and maybe others
+It should support the following formats (some file extension aliases, for example `tar.gz` and `tgz` are ommitted but both should be supported):
+ 
+`.7z`, `.rar`, `.zip`, `.tar`, `.tar.[gz|7z|br|bz2|sz|xz]`, `.ar`, `.cab`, `.iso` (9660), `.jar` (and similar), `.cbz`, `.cpio`, `.deb`, and possibly many others.
 
-Others should work as well. You can check the script for some other formats that can be supported (upon request) if they don't work already. They are mentioned in the comments
+You can check the script for some other formats that can be supported (upon request) if they don't work already. They are mentioned in the comments next to present avfs modules.
 
 ## Installation: 
 
